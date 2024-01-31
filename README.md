@@ -2,6 +2,10 @@
 
 A CLI tool for provisioning and accessing remote resources on my home server. It uses Cloudflare Tunnels and Zero Trust to securely communicate with a Kubernetes cluster and expose remote resources to the Internet.
 
+<img width="889" alt="image" src="https://github.com/rayhanadev/furretberry-cli/assets/72509475/f4e6df8a-6bc3-4082-94ae-04117ba2ebb2">
+
+## Usage
+
 ```bash
 Usage
   $ furret <command> [options]
