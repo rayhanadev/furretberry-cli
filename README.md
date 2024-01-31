@@ -1,6 +1,6 @@
 # Furret
 
-A CLI tool for provisioning and accessing remote resources on my homeserver. It uses Cloudflare Tunnels and Zero Trust to securely and privately communicate with a Kubernetes cluster and expose remote resources to the Internet.
+A CLI tool for provisioning and accessing remote resources on my home server. It uses Cloudflare Tunnels and Zero Trust to securely communicate with a Kubernetes cluster and expose remote resources to the Internet.
 
 ```bash
 Usage
