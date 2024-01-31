@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "bun src/index.ts",
-    "pkg": "bun build src/index.ts --outfile dist/furret --minify --compile"
+    "pkg": "bun build src/index.ts --outfile dist/furret --compile"
   },
   "bin": {
     "furret": "./dist/furret"

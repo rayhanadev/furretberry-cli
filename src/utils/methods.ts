@@ -53,7 +53,7 @@ export async function init() {
   });
 
   const CLOUDFLARE_ACCESS_CLIENT_SECRET = await password({
-    message: "Cloudflare Access Client ID:",
+    message: "Cloudflare Access Client Secret:",
   });
 
   const CLOUDFLARE_ACCOUNT_ID = await input({
