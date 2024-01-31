@@ -55,4 +55,4 @@ cli
     disconnectResource(resource, id);
   });
 
-export default cli;
+cli.parse(process.argv);

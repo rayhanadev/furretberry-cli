@@ -4,7 +4,11 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun src/index.ts"
+    "start": "bun src/index.ts",
+    "pkg": "bun build src/index.ts --outfile dist/furret --minify --compile"
+  },
+  "bin": {
+    "furret": "./dist/furret"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.3.2",
